@@ -1,0 +1,35 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "docs": "storybook dev -p 6006 --no-open",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.26",
+    "next": "^13.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.10"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "7.0.7",
+    "@storybook/addon-interactions": "7.0.7",
+    "@storybook/addon-links": "7.0.7",
+    "@storybook/addons": "^7.0.8",
+    "@storybook/blocks": "7.0.7",
+    "@storybook/nextjs": "7.0.7",
+    "@storybook/react": "7.0.7",
+    "@storybook/testing-library": "0.0.14-next.2",
+    "@storybook/theming": "^7.0.8",
+    "@types/node": "18.16.1",
+    "@types/react": "18.2.0",
+    "storybook": "7.0.7",
+    "typescript": "5.0.4"
+  }
+}

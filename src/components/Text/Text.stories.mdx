@@ -1,0 +1,16 @@
+import { Meta, Story, Canvas, ArgsTable } from "@storybook/blocks";
+import Text from "./index";
+
+<Meta title="Components/Text" component={Text} />
+
+# Text Components
+
+Componente de texto que pode receber alguns elementos de texto HTML
+
+## Text example
+
+<Canvas>
+  <Story name="Text variants" args={{ children: "Texto em h1" }}>
+    {(args) => <Text {...args} />}
+  </Story>
+</Canvas>
